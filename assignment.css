@@ -1,0 +1,150 @@
+body{
+    background-color: hsl(212, 74%, 67%);
+    margin: 0px;
+    padding: 0px;
+}
+.navbar a{
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    font-size: 17px;
+}
+.navbar{
+    background-color: rgb(199, 221, 240);
+    padding: 15px;
+ overflow: hidden; 
+}
+.navbar input{
+    float: right;
+    padding: 5px;
+    width: 200px;
+}
+.navbar a:hover{
+    background-color: hsl(212, 81%, 47%);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* .navbar a.active{
+    background-color: hsl(212, 81%, 47%);
+    color: #f8f5f5;
+} */
+/* .navebar a::before{
+    background-color: rgb(76, 76, 233);
+} */
+.img{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+
+/* .footer1{
+    background-color: rgb(53, 47, 47);
+    color: aliceblue;
+    margin-bottom: 0px;
+}
+.footer1 a{
+    color: aliceblue;
+    text-decoration: none;
+} */
+
+
+.footer{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(53, 47, 47);
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+.footer1{
+    float: left;
+    padding: 10px;
+    margin-left:  50px;
+}
+.footer1 h2{
+    font-size: 30px;
+}
+.footer1 a{
+color: aliceblue;
+text-decoration: none;
+margin: 0px;
+}
+.footer3 a{
+    color: #f8f5f5;
+    text-decoration: none;
+}
+.footer2{
+    color: #f8f5f5;
+     float: left; 
+     margin: 10px;
+     
+}
+.footer2 h2{
+    font-size: 30px;
+}
+.footer2 a{
+    color: #f8f5f5;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.footer3{
+    float: left;
+    padding: 10px;
+}
+.footer3 h2{
+    font-size: 30px;
+}
+.footeremail{
+    float: right;
+    padding: 10px;
+}
+.footeremail h2{
+    font-size: 30px;
+}
+.footeremail input{
+    padding: 15px;
+    border-radius: 6px;
+    width: 230px;
+}
+.footeremail button{
+    padding: 15px;
+    background-color: rgb(238, 85, 85);
+    color: #f8f5f5;
+    border-radius: 6px;
+}
+/* .navbar #stay:active{
+    background-color: hsl(0, 0%, 6%);
+    color: #f8f5f5;
+} */
+.div1{
+    margin-left:  60px;
+}
+
+.footer1 a:hover{
+    color: hsl(0, 82%, 59%)
+}
+.footer2 a:hover{
+    color: rgb(228, 69, 69);
+}
+.footer3 a:hover{
+    color: rgb(228, 69, 69);
+}
+.footeremail button:hover{
+    background-color: rgb(59, 59, 235);
+
+}
+#imghover:hover{
+    box-shadow: 7px 7px 10px rgb(236, 94, 123);
+    padding: 30px;
+    background-color: rgb(169, 236, 236);
+}
+
+@media screen and (max-width: 600) {
+    .navbar{display: flex;}
+    main{display: flex;}
+    .footer{display: flex;}
+}
